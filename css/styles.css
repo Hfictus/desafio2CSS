@@ -1,0 +1,10 @@
+.container{
+    background: red;
+    display: flex;
+    align-items: center;
+}
+.right-elements{
+    display:flex;
+    align-items: center;
+    
+}
