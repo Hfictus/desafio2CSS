@@ -1,10 +1,86 @@
-.container{
-    background: red;
-    display: flex;
-    align-items: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.right-elements{
+
+:root{
+    --red-color: #F03C42;
+    --blue-color: #222374;
+    --gray-color: #CCC;
+    --white-color: #FFF;
+    --black-color: #000;
+}
+body{
+    max-width: 1200px;
+}
+header{
+    height: 100px;
+    background: var(--red-color);
+}
+nav{
+    height: 100px;
+}
+.container{
+    max-height: 100px;
+    display: flex;
+    
+}
+
+h1 {
+    color: var(--white-color);
+    font-size: 18px;
+}
+.container img{
+    width: 30px;
+    height: 30px;
+}
+.container a{
+    color: var(--white-color) ;
+    font-size: 14px;
+}
+.header-elements {
     display:flex;
     align-items: center;
-    
+}
+.our-space {
+    background: var(--blue-color);
+    height: 418px;
+}
+.our-space h2{
+    color: var(--white-color);
+    font-size: 32px;
+}
+.our-space h3{
+    color: var(--black-color);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 788px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.our-space p{
+    width: 920px;
+    height: 40px;
+    color: var(--black-color);
+    font-size: 14px;
+    margin:20px;
+}
+.our-space-card{
+    width: 960px;
+    height: 127px;
+    background: var(--gray-color);
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.modalities{
+    background: var(--white-color);
+    height: 880px;
+}
+footer{
+    height: 262px;
+    background: var(--black-color);
+}
+footer address, div {
+    color: var(--white-color);
 }
