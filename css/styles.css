@@ -1,3 +1,6 @@
+/*dificuldades:
+/*cabeçalho: posicionar os elementos nos lugares certos (ver as margens deles)
+/*no main: posicionar o h2 sem que, sobre ele, haja uma linha horizontal branca.
 *{
     margin: 0;
     padding: 0;
@@ -17,9 +20,6 @@ body{
 header{
     height: 100px;
     background: var(--red-color);
-}
-nav{
-    height: 100px;
 }
 .container{
     max-height: 100px;
@@ -50,14 +50,14 @@ h1 {
 .our-space h2{
     color: var(--white-color);
     font-size: 32px;
+    width: 357px;
+    height: 44px;
+    margin: 0px 723px 40px 120px;
 }
 .our-space h3{
     color: var(--black-color);
     font-size: 20px;
-    margin-left: 20px;
-    margin-right: 788px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 788px 20px 20px;
 }
 .our-space p{
     width: 920px;
@@ -72,10 +72,35 @@ h1 {
     background: var(--gray-color);
     border: 1px solid black;
     border-radius: 8px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .modalities{
     background: var(--white-color);
     height: 880px;
+}
+.modalities h2{
+    margin: 20px 876px 20px 120px;
+    color: var(--red-color);
+    width: 204px;
+    height: 44px;
+    font-size: 32px;
+}
+.modalities-cards{
+    background: var(--blue-color);
+    margin: 20px 120px 0px 120px;
+    width: 960px;
+    height: 106px;
+}
+.modalities-cards h3{
+    width: 76px;
+    height: 27px;
+    font-size: 20px;
+}
+.modalities-cards p{
+    width: 663px;
+    height: 19px;
+    font-size: 14px;
 }
 footer{
     height: 262px;
