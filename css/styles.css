@@ -1,7 +1,4 @@
-/*dificuldades:
-/*cabeçalho: posicionar os elementos nos lugares certos (ver as margens deles)
-/*no main: posicionar o h2 sem que, sobre ele, haja uma linha horizontal branca.
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,6 +43,7 @@ h1 {
 .our-space {
     background: var(--blue-color);
     height: 418px;
+    padding: 20px;
 }
 .our-space h2{
     color: var(--white-color);
@@ -74,10 +72,12 @@ h1 {
     border-radius: 8px;
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: 20px;
 }
 .modalities{
     background: var(--white-color);
     height: 880px;
+    border: 1px solid black;
 }
 .modalities h2{
     margin: 20px 876px 20px 120px;
@@ -91,16 +91,20 @@ h1 {
     margin: 20px 120px 0px 120px;
     width: 960px;
     height: 106px;
+    padding: 20px;
 }
 .modalities-cards h3{
     width: 76px;
     height: 27px;
     font-size: 20px;
+    margin-right: 844px;
 }
 .modalities-cards p{
     width: 663px;
     height: 19px;
     font-size: 14px;
+    margin-top: 20px;
+    margin-right: 257px;
 }
 footer{
     height: 262px;
