@@ -25,6 +25,7 @@ h1 {
 img{
     width: 30px;
     height: 30px;
+    margin-right: 10px;
 }
 header a{
     width: 85px;
@@ -94,11 +95,13 @@ header a{
     height: 27px;
     font-size: 20px;
     margin-right: 844px;
+    color: var(--white-color);
 }
 .modalities-cards p{
     width: 663px;
     height: 19px;
     font-size: 14px;
+    color: var(--white-color);
     margin-top: 20px;
     margin-right: 257px;
 }
@@ -113,4 +116,11 @@ footer a{
     height: 19px;
     color: var(--white-color);
 }
-
+footer p{
+    width: 180px;
+    height: 21px;
+}
+.footer-elements{
+    display:flex;
+    align-items: center;
+}
