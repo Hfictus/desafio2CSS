@@ -1,4 +1,4 @@
-    *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,21 +18,15 @@ header{
     height: 100px;
     background: var(--red-color);
 }
-.container{
-    max-height: 100px;
-    display: flex;
-    
-}
-
 h1 {
     color: var(--white-color);
     font-size: 18px;
 }
-.container img{
+header img{
     width: 30px;
     height: 30px;
 }
-.container a{
+header a{
     color: var(--white-color) ;
     font-size: 14px;
 }
@@ -109,7 +103,10 @@ h1 {
 footer{
     height: 262px;
     background: var(--black-color);
-}
-footer address, div {
     color: var(--white-color);
+    font-size: 14px;
+}
+footer img{
+    width: 30px;
+    height: 30px;
 }
