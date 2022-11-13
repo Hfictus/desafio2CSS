@@ -14,11 +14,17 @@
 body{
     max-width: 1200px;
 }
-header{
+#header-space{
     height: 100px;
     background: var(--red-color);
 }
-h1 {
+header{
+    padding: 40px 120px;
+}
+header h1 {
+    width: 99px;
+    height: 25px;
+    margin-right: 746px;
     color: var(--white-color);
     font-size: 18px;
 }
@@ -33,11 +39,18 @@ header a{
     color: var(--white-color);
     font-size: 14px;
 }
-.header-elements {
+.header-elements{
+    display: flex;
+    
+}
+.header-elements-right {
     display:flex;
     align-items: center;
+    
+    margin-right: 120px;
 }
-.our-space {
+
+#our-space {
     background: var(--blue-color);
     height: 418px;
     padding: 20px;
@@ -71,7 +84,7 @@ header a{
     margin-right: 120px;
     margin-bottom: 20px;
 }
-.modalities{
+#modalities{
     background: var(--white-color);
     height: 880px;
     border: 1px solid black;
@@ -105,7 +118,7 @@ header a{
     margin-top: 20px;
     margin-right: 257px;
 }
-footer{
+#footer-space{
     height: 262px;
     background: var(--black-color);
     color: var(--white-color);
