@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -13,61 +13,56 @@
 }
 body{
     max-width: 1200px;
+    margin: 0 auto;
 }
 #header-space{
     height: 100px;
     background: var(--red-color);
-}
-header{
     padding: 40px 120px;
 }
-header h1 {
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
     width: 99px;
     height: 25px;
-    margin-right: 746px;
     color: var(--white-color);
     font-size: 18px;
+    margin-right: 756px;
 }
 img{
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-header a{
+.header-container a{
     width: 85px;
     height: 19px;
     color: var(--white-color);
     font-size: 14px;
-}
-.header-elements{
-    display: flex;
-    
-}
-.header-elements-right {
-    display:flex;
-    align-items: center;
-    
-    margin-right: 120px;
+    margin-right: 10px;
 }
 
 #our-space {
     background: var(--blue-color);
     height: 418px;
-    padding: 20px;
 }
-.our-space h2{
+.space-container h2{
     color: var(--white-color);
     font-size: 32px;
     width: 357px;
     height: 44px;
     margin: 0px 723px 40px 120px;
 }
-.our-space h3{
+.space-container h3{
     color: var(--black-color);
     font-size: 20px;
     margin: 20px 788px 20px 20px;
 }
-.our-space p{
+.space-container p{
     width: 920px;
     height: 40px;
     color: var(--black-color);
@@ -89,7 +84,7 @@ header a{
     height: 880px;
     border: 1px solid black;
 }
-.modalities h2{
+.modalities-container h2{
     margin: 20px 876px 20px 120px;
     color: var(--red-color);
     width: 204px;
@@ -123,17 +118,23 @@ header a{
     background: var(--black-color);
     color: var(--white-color);
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-footer a{
+]
+.footer-container a{
     width: 85px;
     height: 19px;
     color: var(--white-color);
 }
-footer p{
+.footer-container p{
     width: 180px;
     height: 21px;
 }
-.footer-elements{
-    display:flex;
+.footer-container {
+    display: flex;
     align-items: center;
 }
+
