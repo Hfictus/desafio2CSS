@@ -12,38 +12,40 @@
     --black-color: #000;
 }
 body{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
 }
 #header-space{
+    width: 1200px;
     height: 100px;
+    padding: auto 120px;
     background: var(--red-color);
-    padding: 40px 120px;
-}
-
-.header-container {
     display: flex;
     justify-content: center;
+}
+
+.header-container1 {
+    display: flex;
     align-items: center;
 }
+
 h1 {
     width: 99px;
     height: 25px;
     color: var(--white-color);
     font-size: 18px;
-    margin-right: 756px;
+    margin-right: 736px;
 }
 img{
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-.header-container a{
+.header-container1 a{
     width: 85px;
     height: 19px;
     color: var(--white-color);
     font-size: 14px;
-    margin-right: 10px;
 }
 
 #our-space {
@@ -134,6 +136,10 @@ footer a{
     height: 19px;
     color: var(--white-color);
     text-decoration: none;
+}
+footer img {
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 footer p {
