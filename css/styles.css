@@ -46,6 +46,7 @@ img{
     height: 19px;
     color: var(--white-color);
     font-size: 14px;
+    text-decoration: none;
 }
 
 #our-space {
