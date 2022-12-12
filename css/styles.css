@@ -18,24 +18,27 @@ body{
 #header-space{
     width: 1200px;
     height: 100px;
-    padding: auto 120px;
+    padding: 40px 120px;
     background: var(--red-color);
-    display: flex;
-    justify-content: center;
 }
 
 .header-container {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
+
 
 h1 {
     width: 99px;
     height: 25px;
     color: var(--white-color);
     font-size: 18px;
-    margin-right: 736px;
 }
+header nav div {
+    display: flex;
+    align-items: center;
+}
+
 img{
     width: 30px;
     height: 30px;
