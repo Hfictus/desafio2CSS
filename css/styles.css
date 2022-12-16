@@ -26,6 +26,9 @@ body{
     padding: 40px 120px;
     background: var(--red-color);
 }
+#header-space:hover {
+    border: 2px solid #fff;
+}
 
 .header-container {
     display: flex;
@@ -63,6 +66,10 @@ img{
 #our-space {
     background: var(--blue-color);
     height: 418px;
+    padding: 20px 0px;
+}
+#our-space:hover {
+    border: 2px solid #fff;    
 }
 .space-container h2{
     color: var(--white-color);
@@ -101,10 +108,13 @@ img{
 #modalities{
     background: var(--white-color);
     height: 880px;
-    border: 1px solid black;
+    padding-bottom: 40px;
+}
+#modalities:hover {
+    border: 2px solid #000;
 }
 .modalities-container h2{
-    margin: 20px 876px 20px 120px;
+    margin: 20px 876px 40px 120px;
     color: var(--red-color);
     width: 204px;
     height: 44px;
@@ -114,7 +124,7 @@ img{
 }
 .modalities-cards{
     background: var(--blue-color);
-    margin: 20px 120px 0px 120px;
+    margin: 0px 120px 20px 120px;
     width: 960px;
     height: 106px;
     padding: 20px;
@@ -147,6 +157,9 @@ img{
     justify-content: center;
     align-items: center;
 }
+#footer-space:hover {
+        border: 2px solid #fff;
+}
 
 .footer-container {
     display: flex;
@@ -159,7 +172,12 @@ footer a{
     color: var(--white-color);
     text-decoration: none;
     line-height: 19px;
+    
 }
+.space {
+    margin-bottom: 38px;
+}
+
 footer img {
     margin-bottom: 10px;
     margin-left: 30px;
