@@ -15,6 +15,7 @@
     --gray-color: #CCC;
     --white-color: #FFF;
     --black-color: #000;
+    --lightblue-color: #ADD8E6;
 }
 body{
     width: 1200px;
@@ -43,6 +44,10 @@ h1 {
     font-weight: 700;
     line-height: 25px;
 }
+
+h1:hover {
+    text-decoration: underline var(--lightblue-color);
+}    
 header nav div {
     display: flex;
     align-items: center;
@@ -53,6 +58,19 @@ img{
     height: 30px;
     margin-right: 10px;
 }
+
+img:hover {
+    border: 2px solid var(--lightblue-color);
+}
+
+p:hover {
+    text-decoration: underline var(--white-color);
+}
+
+header a:hover {
+    text-decoration: underline var(--lightblue-color);
+}
+
 .header-container a{
     width: 85px;
     height: 19px;
@@ -62,6 +80,15 @@ img{
     font-weight: 700;
     line-height: 19px;
 }
+
+h2:hover {
+    text-decoration: underline var(--lightblue-color);
+}
+
+h3:hover {
+    text-decoration: underline var(--white-color);
+}
+
 
 #our-space {
     background: var(--blue-color);
@@ -87,6 +114,7 @@ img{
     font-weight: 700;
     line-height: 27px;
 }
+
 .space-container p{
     width: 920px;
     height: 40px;
@@ -163,7 +191,7 @@ img{
 
 .footer-container {
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 footer a{
@@ -172,8 +200,12 @@ footer a{
     color: var(--white-color);
     text-decoration: none;
     line-height: 19px;
-    
 }
+
+footer a:hover {
+    text-decoration: underline var(--lightblue-color);
+}
+
 .space {
     margin-bottom: 38px;
 }
