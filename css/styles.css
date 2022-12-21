@@ -6,8 +6,9 @@
     box-sizing: border-box;
     font-family: 'open sans', sans-serif;
     font-style: normal;
+    color: #fff;
     font-weight: 400;
-    cursor: default;
+    cursor: defult;
 }
 
 :root{
@@ -22,19 +23,24 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
-#header-space{
+
+#header-container {
     width: 1200px;
     height: 100px;
     padding: 40px 120px;
     background: var(--red-color);
-}
-#header-space:hover {
-    border: 2px solid #fff;
-}
-
-.header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#header-container:hover {
+    border: 2px solid var(--lightblue-color);
+}
+
+.right-header-elements {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -49,10 +55,6 @@ h1 {
 h1:hover {
     text-decoration: underline var(--lightblue-color);
 }    
-header nav div {
-    display: flex;
-    align-items: center;
-}
 
 img{
     width: 30px;
@@ -68,18 +70,17 @@ p:hover {
     text-decoration: underline var(--white-color);
 }
 
-header a:hover {
-    text-decoration: underline var(--lightblue-color);
-}
-
-.header-container a{
+.right-header-elements a {
     width: 85px;
     height: 19px;
-    color: var(--white-color);
-    font-size: 14px;
     text-decoration: none;
+    font-size: 14px;
     font-weight: 700;
     line-height: 19px;
+}
+
+.right-header-elements a:hover {
+    text-decoration: underline var(--lightblue-color);
 }
 
 h2:hover {
@@ -97,10 +98,9 @@ h3:hover {
     padding: 20px 0px;
 }
 #our-space:hover {
-    border: 2px solid #fff;    
+    border: 2px solid var(--lightblue-color);
 }
 .space-container h2{
-    color: var(--white-color);
     font-size: 32px;
     width: 357px;
     height: 44px;
@@ -134,13 +134,19 @@ h3:hover {
     margin-right: 120px;
     margin-bottom: 20px;
 }
+
+.our-space-card:hover {
+    border: 2px solid var(--lightblue-color);
+}
+
 #modalities{
     background: var(--white-color);
     height: 880px;
     padding-bottom: 40px;
 }
 #modalities:hover {
-    border: 2px solid #000;
+    border-right: 2px solid var(--lightblue-color);
+    border-left: 2px solid var(--lightblue-color);
 }
 .modalities-container h2{
     margin: 20px 876px 40px 120px;
@@ -158,12 +164,18 @@ h3:hover {
     height: 106px;
     padding: 20px;
 }
+
+.modalities-cards:hover {
+    border: 2px solid var(--lightblue-color);
+}
+
+
+
 .modalities-cards h3{
     width: 76px;
     height: 27px;
     font-size: 20px;
     margin-right: 844px;
-    color: var(--white-color);
     font-weight: 700;
     line-height: 27px;
 }
@@ -171,34 +183,35 @@ h3:hover {
     width: 663px;
     height: 19px;
     font-size: 14px;
-    color: var(--white-color);
     margin-top: 20px;
     margin-right: 257px;
     line-height: 19px;
 }
-#footer-space{
+#footer-container{
     height: 262px;
     background: var(--black-color);
-    color: var(--white-color);
     font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#footer-space:hover {
-        border: 2px solid #fff;
+#footer-container:hover {
+        border: 2px solid var(--lightblue-color);
 }
 
-.footer-container {
+.footer-elements1 {
     display: flex;
-    align-items: center;    
+    align-items: center;
+}
+
+.footer-elements2 {
+    margin-top: 10px;
 }
 
 footer a{
     width: 85px;
     height: 19px;
-    color: var(--white-color);
     text-decoration: none;
     line-height: 19px;
 }
@@ -209,11 +222,6 @@ footer a:hover {
 
 .space {
     margin-bottom: 38px;
-}
-
-footer img {
-    margin-bottom: 10px;
-    margin-left: 30px;
 }
 
 footer p {
