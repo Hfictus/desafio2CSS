@@ -8,7 +8,7 @@
     font-style: normal;
     color: #fff;
     font-weight: 400;
-    cursor: defult;
+    cursor: default;
 }
 
 :root{
@@ -67,7 +67,7 @@ img:hover {
 }
 
 p:hover {
-    text-decoration: underline var(--white-color);
+    text-decoration: underline var(--lightblue-color);
 }
 
 .right-header-elements a {
@@ -88,9 +88,8 @@ h2:hover {
 }
 
 h3:hover {
-    text-decoration: underline var(--white-color);
+    text-decoration: underline var(--lightblue-color);
 }
-
 
 #our-space {
     background: var(--blue-color);
@@ -124,8 +123,9 @@ h3:hover {
     margin:20px;
     line-height: 19px;
 }
+
 .our-space-card{
-    width: 960px;
+    max-width: 960px;
     height: 127px;
     background: var(--gray-color);
     border: 1px solid black;
@@ -160,7 +160,7 @@ h3:hover {
 .modalities-cards{
     background: var(--blue-color);
     margin: 0px 120px 20px 120px;
-    width: 960px;
+    max-width: 960px;
     height: 106px;
     padding: 20px;
 }
