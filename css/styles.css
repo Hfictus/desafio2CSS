@@ -99,7 +99,7 @@ h3:hover {
 #our-space:hover {
     border: 2px solid var(--lightblue-color);
 }
-.space-container h2{
+#our-space h2{
     font-size: 32px;
     width: 357px;
     height: 44px;
@@ -107,7 +107,7 @@ h3:hover {
     font-weight: 700;
     line-height: 44px;
 }
-.space-container h3{
+#our-space h3{
     color: var(--black-color);
     font-size: 20px;
     margin: 20px 788px 20px 20px;
@@ -115,7 +115,7 @@ h3:hover {
     line-height: 27px;
 }
 
-.space-container p{
+#our-space p{
     width: 920px;
     height: 40px;
     color: var(--black-color);
@@ -123,6 +123,13 @@ h3:hover {
     margin:20px;
     line-height: 19px;
 }
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* obs.: centralizei os cards em .cards-container, mesmo assim, coloquei margin-left e right de 120px em .our-espace-card porque estava no modelo figma. */
 
 .our-space-card{
     max-width: 960px;
@@ -148,7 +155,7 @@ h3:hover {
     border-right: 2px solid var(--lightblue-color);
     border-left: 2px solid var(--lightblue-color);
 }
-.modalities-container h2{
+#modalities h2{
     margin: 20px 876px 40px 120px;
     color: var(--red-color);
     width: 204px;
@@ -157,7 +164,8 @@ h3:hover {
     font-weight: 700;
     line-height: 44px;
 }
-.modalities-cards{
+
+.modalities-card{
     background: var(--blue-color);
     margin: 0px 120px 20px 120px;
     max-width: 960px;
@@ -171,7 +179,7 @@ h3:hover {
 
 
 
-.modalities-cards h3{
+#modalities h3{
     width: 76px;
     height: 27px;
     font-size: 20px;
@@ -179,12 +187,12 @@ h3:hover {
     font-weight: 700;
     line-height: 27px;
 }
-.modalities-cards p{
+#modalities p{
     width: 663px;
     height: 19px;
     font-size: 14px;
     margin-top: 20px;
-    margin-right: 257px;
+    margin-right: 277px;
     line-height: 19px;
 }
 #footer-container{
@@ -220,7 +228,7 @@ footer a:hover {
     text-decoration: underline var(--lightblue-color);
 }
 
-.space {
+.space-between-elements1and2 {
     margin-bottom: 38px;
 }
 
